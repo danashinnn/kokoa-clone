@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Combi</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div span {
+        color: white;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      div > span {
+        text-decoration: underline;
+      }
+      p + span {
+        color: blue;
+      }
+      p ~ span {
+        background-color: orange;
+      }
+
+      input {
+        border: 1px solid grey;
+      }
+      input:required {
+        border-color: tomato;
+      }
+      input[type="password"] {
+        background-color: thistle;
+      }
+      input[placeholder~="name"] {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        sfjlaksjdflwji sdjifowlfjali aieflj eil aesjlfjaslifej
+        asdljfisldfjlasdjflj <span>inside</span>
+      </p>
+      <span>bye</span>
+      <address>love</address>
+      <span>hate</span>
+    </div>
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" placeholder="Password" required />
+      </form>
+    </div>
+  </body>
+</html>

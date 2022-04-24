@@ -1,0 +1,29 @@
+body {
+  background-color: tomato;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  border: 2px solid white;
+}
+body > div {
+  background-color: wheat;
+  border-color: black;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.child {
+  background-color: teal;
+  height: 50px;
+  width: 50px;
+}
+.second {
+  width: 180px;
+  border-style: dashed;
+}

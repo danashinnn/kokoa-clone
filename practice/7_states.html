@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>State</title>
+    <style>
+      button:active {
+        background-color: tomato;
+      }
+      button:hover {
+        background-color: teal;
+      }
+      input:focus {
+        background-color: wheat;
+      }
+      a:visited {
+        color: tomato;
+      }
+      a:hover {
+        color: teal;
+      }
+      a:focus {
+        color: turquoise;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      form:hover input:focus {
+        background-color: sienna;
+      }
+      input::placeholder {
+        color: yellowgreen;
+      }
+      p::first-letter {
+        color: black;
+        font-size: 50px;
+      }
+      p::selection {
+        color: white;
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <button>hello</button>
+    <a href="https://www.apple.com" target="_blank">Apple</a>
+    <form>
+      <input type="text" placeholder="Name" />
+      <input type="text" />
+      <input type="text" />
+    </form>
+    <p>어쩌구 저쩌구 어쩌구 저쩌구어쩌구 저쩌구어쩌구 저쩌구</p>
+  </body>
+</html>
