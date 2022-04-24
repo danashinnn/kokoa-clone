@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>S.H.I.E.L.D.</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Agents</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link"
+      ><i class="fa-solid fa-circle-info"></i> Agents' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i
+    ></a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://pbs.twimg.com/profile_images/1222646977332174849/xWcD6t_Q_400x400.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Spider-Man</h4>
+            <h6 class="user-component__subtitle">
+              Your friendly neighborhood Spider-Man.
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Official Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/5344e5ca0975fbd6bb05d033aa17fbd2dba8d34d602407fdd4d0711463ac52a7403649891c4c07bd51614762418e8c8115c256960e7fd72ee45947b4031e42237db5f56a5e9b73578f96bcef23fc8418c3602d2ce9809068a35be3bc0b4080c51dd69704bc75f229dcb67a1dfccdaf62"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                S.H.I.E.L.D.
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fa-solid fa-headset fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Favorites</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component user-component--margin">
+          <div class="user-component__column">
+            <img
+              src="https://pbs.twimg.com/profile_images/1439953850471911426/s4pE9SYa_400x400.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Iron Man
+              </h4>
+              <h6 class="user-component__subtitle">
+                Genius, billionaire, philanthropist.
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <!-- <i class="fa-solid fa-chevron-right fa-xs"></i> -->
+          </div>
+        </div>
+        <div class="user-component user-component--margin">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/originals/5f/9e/05/5f9e0502a31a658553bbeb20cff7e96e.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Doctor Strange
+              </h4>
+              <h6 class="user-component__subtitle">What is real?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <!-- <i class="fa-solid fa-chevron-right fa-xs"></i> -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><span class="nav__notification">1</span
+            ><i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="nav__dot"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/7b7a761eb5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Welcome to The Avengers.</title>
+    <title>Welcome to S.H.I.E.L.D.</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -25,18 +25,24 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to The Avengers.</h1>
+      <div class="welcome-header__img">
+        <img
+          src="https://w.namu.la/s/dfbcb699143023a751d732f48b0c9d98a95df6dd3819a48299dddae7f8262d49b28e0080cef5bab02de197ec97092117a806656df9fa7f93a8282812f996bf4b50c214b7fa801f0d2d32c3fe126b207be3572417138b6795c920af1e6d79e5db07ca31eaf24a74acfd5ec22d86c261ca"
+          alt=""
+        />
+      </div>
+      <h1 class="welcome-header__title">Welcome to S.H.I.E.L.D.</h1>
       <p class="welcome-header__text">
-        If you have a Avengers Account, log in with your email or phone number.
+        If you have a S.H.I.E.L.D. Account, log in with your S.H.I.E.L.D. Agent
+        ID.
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form id="login-form" action="friends.html" method="get">
+      <input name="username" type="text" placeholder="Agent ID" required />
+      <input name="password" type="password" placeholder="Password" required />
       <input type="submit" value="Log In" />
-      <button>Sign Up</button>
-      <a href="#">Find Avengers Account or Password</a>
+      <a href="#">Find S.H.I.E.L.D. Agent ID or Password</a>
     </form>
 
     <script
